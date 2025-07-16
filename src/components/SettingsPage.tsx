@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { AppSettings } from './types.ts';
-import { mockSettings } from './data/mockData.ts';
+import { mockSettings } from '../data/mockData.ts';
 import Card from './Card.tsx';
 import { GlobeIcon, LinkIcon, MessageIcon, ShieldIcon, CreditCardIcon } from './Icons.tsx';
 

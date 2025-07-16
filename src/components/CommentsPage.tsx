@@ -1,5 +1,5 @@
 import React, { useState, useMemo } from 'react';
-import { mockDetailedComments } from './data/mockData.ts';
+import { mockDetailedComments } from '../data/mockData.ts';
 import { DetailedComment, CommentStatus } from './types.ts';
 import { CheckCircleIcon, XCircleIcon, EyeIcon, XIcon, TrashIcon } from './Icons.tsx';
 

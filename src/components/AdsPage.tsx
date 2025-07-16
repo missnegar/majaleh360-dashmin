@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { mockAds } from './data/mockData.ts';
+import { mockAds } from '../data/mockData.ts';
 import { Ad } from './types.ts';
 import { PencilIcon, TrashIcon } from './Icons.tsx';
 

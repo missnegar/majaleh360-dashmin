@@ -1,5 +1,5 @@
 import React, { useState, useMemo } from 'react';
-import { mockCategories } from './data/mockData.ts';
+import { mockCategories } from '../data/mockData.ts';
 import { Category } from './types.ts';
 import { PencilIcon, TrashIcon, CornerDownLeftIcon } from './Icons.tsx';
 

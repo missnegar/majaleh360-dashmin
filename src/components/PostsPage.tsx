@@ -1,5 +1,5 @@
 import React, { useState, useMemo } from 'react';
-import { mockPosts } from './data/mockData.ts';
+import { mockPosts } from '../data/mockData.ts';
 import { Post, SeoStatus } from './types.ts';
 import { PencilIcon, TrashIcon } from './Icons.tsx';
 import { Page } from './App.tsx';

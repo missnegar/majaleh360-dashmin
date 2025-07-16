@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Page } from './App.tsx';
 import Card from './Card.tsx';
-import { mockCategories } from './data/mockData.ts';
+import { mockCategories } from '../data/mockData.ts';
 import { ArrowRightIcon, EyeIcon, SaveIcon, PublishIcon, TagIcon, MediaIcon, SeoIcon, XIcon } from './Icons.tsx';
 
 interface CreatePostPageProps {
