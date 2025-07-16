@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>سیستم مدیریت محتوا</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'primary': '#748873',
+              'secondary': '#D1A980',
+              'background': '#F8F8F8',
+              'text-main': '#333333',
+              'text-light': '#555555',
+            },
+            fontFamily: {
+              'sans': ['Vazirmatn', 'sans-serif'],
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        font-family: 'Vazirmatn', sans-serif;
+      }
+    </style>
+
+<!-- Add Babel to transpile JSX in the browser -->
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+  <body class="bg-background">
+    <div id="root"></div>
+    <!-- Note the type="text/babel" and data-presets for babel to process the script -->
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.1.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.0/",
+    "react/": "https://esm.sh/react@^19.1.0/",
+    "recharts": "https://esm.sh/recharts@^3.1.0"
+  }
+}
+</script>
+    <script type="text/babel" data-presets="react,typescript" src="./index.tsx" data-type="module"></script>
+  </body>
+</html>
