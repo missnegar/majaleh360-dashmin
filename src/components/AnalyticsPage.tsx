@@ -3,7 +3,7 @@ import { PieChart, Pie, Cell, ResponsiveContainer, Tooltip, Legend } from 'recha
 import Card from './Card.tsx';
 import { overallStats, countryData, deviceData, referralData, topPagesData } from '../data/mockData.ts';
 import { DeviceDesktopIcon, GlobeIcon, LinkIcon, UsersIcon, GoogleIcon, DirectIcon } from './Icons.tsx';
-import { ReferralData } from './types.ts';
+import { ReferralData } from '../types.ts';
 
 const StatCard: React.FC<{ title: string; value: string; icon: React.ReactNode }> = ({ title, value, icon }) => (
   <Card title="" className="text-center">

@@ -3,7 +3,7 @@ import React from 'react';
 import Card from './Card.tsx';
 import AnalyticsChart from './AnalyticsChart.tsx';
 import { mockComments } from '../data/mockData.ts';
-import { Comment } from './types.ts';
+import { Comment } from '../types.ts';
 import { UsersIcon, CommentsIcon, AdsIcon } from './Icons.tsx';
 
 const StatusIndicator: React.FC<{ status: 'good' | 'warning' | 'error'; label: string }> = ({ status, label }) => {

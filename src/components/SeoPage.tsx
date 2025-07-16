@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
-import { SeoSettings, SeoAnalyticsDataPoint } from './types.ts';
+import { SeoSettings, SeoAnalyticsDataPoint } from '../types.ts';
 import Card from './Card.tsx';
 import { seoAnalyticsData } from '../data/mockData.ts';
 import { CodeIcon, SeoIcon, AnalyticsIcon } from './Icons.tsx';

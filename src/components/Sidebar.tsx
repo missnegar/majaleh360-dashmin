@@ -3,7 +3,7 @@ import {
   DashboardIcon, AnalyticsIcon, PostsIcon, MediaIcon, CategoriesIcon, 
   SeoIcon, AdsIcon, CommentsIcon, SettingsIcon, UsersIcon, LogoutIcon, AccountingIcon, CopywritingIcon, AppearanceIcon 
 } from './Icons.tsx';
-import { Page } from './App.tsx';
+import { Page } from '../App.tsx';
 
 interface NavItemProps {
   icon: React.ReactNode;
