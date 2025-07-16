@@ -1,6 +1,6 @@
 import React, { useState, useMemo } from 'react';
-import { CopywritingTask, CopywritingTaskStatus } from '../types.ts';
-import { mockCopywritingTasks } from '../data/mockData.ts';
+import { CopywritingTask, CopywritingTaskStatus } from '../src/types.ts';
+import { mockCopywritingTasks } from '../src/data/mockData.ts';
 import Card from './Card.tsx';
 import { UsersIcon, ClipboardDocumentListIcon, DocumentPlusIcon, EyeIcon } from './Icons.tsx';
 

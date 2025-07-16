@@ -1,8 +1,8 @@
 
 import React, { useState } from 'react';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
-import { dailyAnalytics, weeklyAnalytics, monthlyAnalytics, quarterlyAnalytics } from '../data/mockData.ts';
-import { AnalyticsData } from '../types.ts';
+import { dailyAnalytics, weeklyAnalytics, monthlyAnalytics, quarterlyAnalytics } from '../src/data/mockData.ts';
+import { AnalyticsData } from '../src/types.ts';
 
 type TimeFrame = 'daily' | 'weekly' | 'monthly' | 'quarterly';
 
