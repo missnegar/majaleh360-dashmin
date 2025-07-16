@@ -1,8 +1,8 @@
 import React, { useState, useMemo } from 'react';
-import { mockPosts } from '../src/data/mockData.ts';
-import { Post, SeoStatus } from '../src/types.ts';
+import { mockPosts } from './data/mockData.ts';
+import { Post, SeoStatus } from './types.ts';
 import { PencilIcon, TrashIcon } from './Icons.tsx';
-import { Page } from '../src/App.tsx';
+import { Page } from './App.tsx';
 
 const SeoStatusBadge: React.FC<{ status: SeoStatus }> = ({ status }) => {
   const statusClasses: Record<SeoStatus, string> = {

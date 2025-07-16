@@ -1,9 +1,9 @@
 import React from 'react';
 import { PieChart, Pie, Cell, ResponsiveContainer, Tooltip, Legend } from 'recharts';
 import Card from './Card.tsx';
-import { overallStats, countryData, deviceData, referralData, topPagesData } from '../src/data/mockData.ts';
+import { overallStats, countryData, deviceData, referralData, topPagesData } from './data/mockData.ts';
 import { DeviceDesktopIcon, GlobeIcon, LinkIcon, UsersIcon, GoogleIcon, DirectIcon } from './Icons.tsx';
-import { ReferralData } from '../src/types.ts';
+import { ReferralData } from './types.ts';
 
 const StatCard: React.FC<{ title: string; value: string; icon: React.ReactNode }> = ({ title, value, icon }) => (
   <Card title="" className="text-center">

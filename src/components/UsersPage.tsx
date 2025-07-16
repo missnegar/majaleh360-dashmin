@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { mockUsers } from '../src/data/mockData.ts';
-import { User, UserRole, UserStatus } from '../src/types.ts';
+import { mockUsers } from './data/mockData.ts';
+import { User, UserRole, UserStatus } from './types.ts';
 import { PencilIcon, TrashIcon, XIcon } from './Icons.tsx';
 
 const roleDisplay: Record<UserRole, { text: string; classes: string; }> = {

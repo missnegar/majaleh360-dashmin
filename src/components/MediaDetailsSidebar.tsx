@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { MediaFile } from '../src/types.ts';
+import { MediaFile } from './types.ts';
 import { formatBytes } from '../utils/formatters.ts';
 import { XIcon, TrashIcon, ClipboardIcon } from './Icons.tsx';
 

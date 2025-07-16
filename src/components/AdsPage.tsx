@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { mockAds } from '../src/data/mockData.ts';
-import { Ad } from '../src/types.ts';
+import { mockAds } from './data/mockData.ts';
+import { Ad } from './types.ts';
 import { PencilIcon, TrashIcon } from './Icons.tsx';
 
 type AdStatus = 'فعال' | 'منقضی شده' | 'در انتظار پرداخت';

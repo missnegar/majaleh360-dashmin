@@ -1,6 +1,6 @@
 import React, { useState, useCallback, useMemo, useRef } from 'react';
-import { MediaFile } from '../src/types.ts';
-import { mockMediaFiles } from '../src/data/mockData.ts';
+import { MediaFile } from './types.ts';
+import { mockMediaFiles } from './data/mockData.ts';
 import { processAndCompressImage } from '../utils/imageProcessor.ts';
 import { formatBytes } from '../utils/formatters.ts';
 import MediaDetailsSidebar from './MediaDetailsSidebar.tsx';

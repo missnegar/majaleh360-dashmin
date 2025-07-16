@@ -1,6 +1,6 @@
 import React, { useState, useMemo } from 'react';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
-import { mockInvoices, mockIncomeData } from '../src/data/mockData.ts';
+import { mockInvoices, mockIncomeData } from './data/mockData.ts';
 import { Invoice, InvoicePaymentStatus, InvoiceStatus, InvoiceOrderType, IncomeData } from '../src/types.ts';
 import Card from './Card.tsx';
 import { CheckCircleIcon, XCircleIcon, XIcon, EyeIcon } from './Icons.tsx';
