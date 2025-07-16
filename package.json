@@ -20,3 +20,10 @@
     "vite": "^6.2.0"
   }
 }
+{
+  "name": "majaleh360-dashmin",
+  "private": true,
+  "version": "0.0.0",
+  "homepage": "https://missnegar.github.io/majaleh360-dashmin",
+  "type": "module",
+}
