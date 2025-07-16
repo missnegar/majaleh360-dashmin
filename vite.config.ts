@@ -12,8 +12,9 @@ export default defineConfig(({ mode }) => {
       base: '/majaleh360-dashmin/', 
 
       define: {
-        'process.env.API_KEY': JSON.stringify(env.GEMINI_API_KEY),
-        'process.env.GEMINI_API_KEY': JSON.stringify(env.GEMINI_API_KEY)
+        // اگر کلید API وجود نداشت، یک رشته خالی "" قرار بده
+        'process.env.API_KEY': JSON.stringify(env.GEMINI_API_KEY || ""),
+        'process.env.GEMINI_API_KEY': JSON.stringify(env.GEMINI_API_KEY || "")
       },
       resolve: {
         alias: {
