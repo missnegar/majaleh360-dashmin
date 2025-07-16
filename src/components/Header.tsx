@@ -1,7 +1,7 @@
 
 import React, { useState, useRef, useEffect } from 'react';
 import { KebabMenuIcon } from './Icons.tsx';
-import { getShamsiDate } from '.src/utils/date.ts';
+import { getShamsiDate } from './utils/date.ts';
 
 const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
