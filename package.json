@@ -1,12 +1,15 @@
 {
-  "name": "سیستم-مدیریت-محتوای-اختصاصی",
+  "name": "سیستم-مدیریت-محتوا",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "/dashmin",
+  "homepage": "https://missnegar.github.io/majaleh360-dashmin",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -16,14 +19,8 @@
   },
   "devDependencies": {
     "@types/node": "^22.14.0",
+    "gh-pages": "^6.3.0",
     "typescript": "~5.7.2",
     "vite": "^6.2.0"
   }
-}
-{
-  "name": "majaleh360-dashmin",
-  "private": true,
-  "version": "0.0.0",
-  "homepage": "https://missnegar.github.io/majaleh360-dashmin",
-  "type": "module",
 }
